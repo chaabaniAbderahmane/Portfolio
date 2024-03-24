@@ -2,8 +2,8 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
-
-
+from streamlit_lottie import st_lottie
+import requests
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -20,6 +20,12 @@ DESCRIPTION = """
 Junior Data Analyst, assisting enterprises by supporting data-driven decision-making.
 """
 EMAIL = "chabani.email@gmail.com"
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+lottie_data = load_lottieurl("https://lottie.host/0726336c-438d-4781-b7cd-f52d2c9b0229/3SnozGumTX.json")
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -50,7 +56,14 @@ with open(resume_file, "rb") as pdf_file:
 
 
 
+
 # --- HERO SECTION ---
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    if lottie_data:
+                st_lottie(lottie_data, width=0, height=400, key="lottie_data")
+
+with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
@@ -60,6 +73,7 @@ with open(resume_file, "rb") as pdf_file:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
+
 
 
 # --- SOCIAL LINKS ---
