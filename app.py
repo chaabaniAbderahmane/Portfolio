@@ -154,7 +154,7 @@ st.write(
 
 
 
-# --- Projects & Accomplishments ---
+# --- Some Projects  ---
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
