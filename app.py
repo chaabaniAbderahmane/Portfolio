@@ -92,11 +92,11 @@ st.write(
 
 ✔️ Practical knowledge of BI tools (Tableau, Power BI) and ETL tools (Talend)
 
-✔️ Significant experience in web application development, including:
+    ✔️ Significant experience in web application development, including:
 
-     ► Full development of a Music Player web application similar to Spotify using Vue.js, Pinia, Vitest, Vue Router, Composition API, and Firebase.
-     ► Design and implementation of a website dedicated to simplifying the process of creating and tracking connection requests for SONELGAZ services.
-     ► Development of a desktop application with Python and QtDesigner for the final year project at CDTA, offering a user-friendly interface for advanced data analysis.
+    - ► Full development of a Music Player web application similar to Spotify using Vue.js, Pinia, Vitest, Vue Router, Composition API, and Firebase.
+    - ► Design and implementation of a website dedicated to simplifying the process of creating and tracking connection requests for SONELGAZ services.
+    - ► Development of a desktop application with Python and QtDesigner for the final year project at CDTA, offering a user-friendly interface for advanced data analysis.
 
 ✔️ Excellent communication skills and ability to work in a team
 """
