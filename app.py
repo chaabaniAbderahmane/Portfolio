@@ -156,7 +156,7 @@ st.write(
 
 # --- Some Projects  ---
 st.write('\n')
-st.subheader("Projects & Accomplishments")
+st.subheader(" Some Projects")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
