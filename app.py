@@ -86,19 +86,22 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
 """
-✔️ Strong expertise in SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB)
+- ✔️ Strong expertise in SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB)
 
-✔️ Advanced proficiency in Python for data analysis (Pandas, NumPy, Matplotlib)
+- ✔️ Advanced proficiency in Python for data analysis (Pandas, NumPy, Matplotlib)
 
-✔️ Practical knowledge of BI tools (Tableau, Power BI) and ETL tools (Talend)
+- ✔️ Practical knowledge of BI tools (Tableau, Power BI) and ETL tools (Talend)
 
-    ✔️ Significant experience in web application development, including:
 
-    - ► Full development of a Music Player web application similar to Spotify using Vue.js, Pinia, Vitest, Vue Router, Composition API, and Firebase.
+    ✔️  Significant experience in web application development, including: :
+    
+    - ►  Full development of a Music Player web application similar to Spotify using Vue.js, Pinia, Vitest, Vue Router, Composition API, and Firebase.
+    
     - ► Design and implementation of a website dedicated to simplifying the process of creating and tracking connection requests for SONELGAZ services.
+    
     - ► Development of a desktop application with Python and QtDesigner for the final year project at CDTA, offering a user-friendly interface for advanced data analysis.
-
-✔️ Excellent communication skills and ability to work in a team
+    
+- ✔️ Excellent communication skills and ability to work in a team
 """
 )
 
