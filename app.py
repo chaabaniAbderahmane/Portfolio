@@ -171,7 +171,7 @@ st.subheader(":mailbox: Get In Touch With Me!")
 st.write("---")
 
 contact_form = """
-<form action="https://formsubmit.co/chabani.email@gmail.com" method="POST">
+<form action="https://formsubmit.co/171219fda143246249ed20eb41a70099" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
