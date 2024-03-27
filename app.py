@@ -6,7 +6,7 @@ import requests
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "cv.pdf"
 # profile_pic = current_dir / "assets" / "montain.png"
 
 
@@ -86,22 +86,22 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
 """
-- ✔️ Expertise solide en bases de données SQL et NoSQL (MySQL, PostgreSQL, MongoDB)
+- ✔️ Strong expertise in SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB)
 
-- ✔️ Maîtrise avancée de Python pour l'analyse de données (Pandas, NumPy, Matplotlib)
+- ✔️ Advanced proficiency in Python for data analysis (Pandas, NumPy, Matplotlib)
 
-- ✔️ Connaissance pratique des outils de BI (Tableau, Power BI) et des ETL (Talend)
+- ✔️ Practical knowledge of BI tools (Tableau, Power BI) and ETL tools (Talend)
 
 
-    ✔️ Expérience significative dans le développement d'applications web, notamment :
+    ✔️  Significant experience in web application development, including: :
     
-    - ► Développement complet d'une application Web de Lecteur Musical similaire à Spotify en utilisant Vue.js, Pinia, Vitest, Vue Router, Composition API et Firebase.
+    - ►  Full development of a Music Player web application similar to Spotify using Vue.js, Pinia, Vitest, Vue Router, Composition API, and Firebase.
     
-    - ► Conception et mise en œuvre d'un site web dédié à simplifier le processus de création et de suivi des demandes de raccordement pour les services de SONELGAZ.
+    - ► Design and implementation of a website dedicated to simplifying the process of creating and tracking connection requests for SONELGAZ services.
     
-    - ► Développement d'une application desktop avec Python et QtDesigner pour le projet de fin d'études à la CDTA, offrant une interface conviviale pour l'analyse de données avancée.
+    - ► Development of a desktop application with Python and QtDesigner for the final year project at CDTA, offering a user-friendly interface for advanced data analysis.
     
-- ✔️ Excellentes compétences en communication et aptitude à travailler en équipe
+- ✔️ Excellent communication skills and ability to work in a team
 """
 )
 
