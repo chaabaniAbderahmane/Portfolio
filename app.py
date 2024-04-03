@@ -15,7 +15,7 @@ PAGE_TITLE = "Portfolio"
 PAGE_ICON = ":wave:"
 NAME = "Abderahmane Chabani"
 DESCRIPTION = """
-Junior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Highly motivated and detail-oriented Fresher Data Analyst with a strong foundation in data analysis, visualization, and reporting. Skilled in developing and implementing data collection systems, identifying business needs, and creating predictive models that improve forecasting accuracy. Proven ability to collaborate with cross-functional teams and deliver data-driven insights that drive revenue growth and operational efficiency..
 """
 EMAIL = "chabani.email@gmail.com"
 def load_lottieurl(url):
