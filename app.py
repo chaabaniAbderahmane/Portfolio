@@ -33,7 +33,7 @@ SOCIAL_MEDIA = {
     "Twitter": "https://twitter.com",
 }
 PROJECTS = {
-    "🌟"Urgent Care Analytics Dashboard": "https://public.tableau.com/app/profile/abderrahmane.chabani/viz/EmergencyRoomDashbord/Dashboard1?publish=yes"
+    "🌟 Urgent Care Analytics Dashboard": "https://public.tableau.com/app/profile/abderrahmane.chabani/viz/EmergencyRoomDashbord/Dashboard1?publish=yes"
      🌟 Exploratory Data Analysis and Correlation Study of the Movie Industry": "https://github.com/chaabaniAbderahmane/Exploratory-Data-Analysis-and-Correlation-of-the-Movie-Industry",
     "🌟 Music Player Web Application": "https://podcasts-ebon.vercel.app/",
     "🌟 Interactive Coffee Sales Dashboard with Streamlit Pandas and Plotly": "https://sales-dashboards.streamlit.app/",
