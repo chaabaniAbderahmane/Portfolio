@@ -33,6 +33,7 @@ SOCIAL_MEDIA = {
     "Twitter": "https://twitter.com",
 }
 PROJECTS = {
+    "🌟 News Veracity Assessment with Logistic Regression": "https://github.com/chaabaniAbderahmane/News-Veracity-Assessment-with-Logistic-Regression",
     "🌟 Urgent Care Analytics Dashboard": "https://public.tableau.com/app/profile/abderrahmane.chabani/viz/EmergencyRoomDashbord/Dashboard1?publish=yes",
     "🌟 Exploratory Data Analysis and Correlation Study of the Movie Industry": "https://github.com/chaabaniAbderahmane/Exploratory-Data-Analysis-and-Correlation-of-the-Movie-Industry",
     "🌟 Predictive Modeling for Credit Card Fraud Detection": "https://github.com/chaabaniAbderahmane/Predictive-Modeling-for-Credit-Card-Fraud-Detection",
