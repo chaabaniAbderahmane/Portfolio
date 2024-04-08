@@ -23,7 +23,7 @@ def load_lottieurl(url):
     if r.status_code != 200:
         return None
     return r.json()
-lottie_data = load_lottieurl("https://lottie.host/0726336c-438d-4781-b7cd-f52d2c9b0229/3SnozGumTX.json")
+lottie_data = load_lottieurl("https://lottie.host/a429e994-7889-44bc-bdee-ef531cbef75f/UIhwf6yo9h.json")
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
