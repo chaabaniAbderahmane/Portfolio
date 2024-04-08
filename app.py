@@ -15,7 +15,7 @@ PAGE_TITLE = "Portfolio"
 PAGE_ICON = ":wave:"
 NAME = "Abderahmane Chabani"
 DESCRIPTION = """
-Junior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Highly motivated and detail-oriented Data Analyst with a strong foundation in data analysis, visualization, and reporting. Skilled in developing and implementing data collection systems, identifying business needs, and creating predictive models that improve forecasting accuracy. Proven ability to collaborate with cross-functional teams and deliver data-driven insights that drive revenue growth and operational efficiency..
 """
 EMAIL = "chabani.email@gmail.com"
 def load_lottieurl(url):
@@ -33,10 +33,12 @@ SOCIAL_MEDIA = {
     "Twitter": "https://twitter.com",
 }
 PROJECTS = {
-    "🌟 North Africa COVID-19 Data Analysis & Visualization": "https://github.com/chaabaniAbderahmane/North-Africa-COVID-19-Data-Analysis-Visualization",
-    "🌟 Exploratory Data Analysis and Correlation Study of the Movie Industry Dataset": "https://github.com/chaabaniAbderahmane/Exploratory-Data-Analysis-and-Correlation-Study-of-the-Movie-Industry-Dataset",
+    "🌟 News Veracity Assessment with Logistic Regression": "https://github.com/chaabaniAbderahmane/News-Veracity-Assessment-with-Logistic-Regression",
+    "🌟 Urgent Care Analytics Dashboard": "https://public.tableau.com/app/profile/abderrahmane.chabani/viz/EmergencyRoomDashbord/Dashboard1?publish=yes",
+    "🌟 Exploratory Data Analysis and Correlation Study of the Movie Industry": "https://github.com/chaabaniAbderahmane/Exploratory-Data-Analysis-and-Correlation-of-the-Movie-Industry",
+    "🌟 Predictive Modeling for Credit Card Fraud Detection": "https://github.com/chaabaniAbderahmane/Predictive-Modeling-for-Credit-Card-Fraud-Detection",
     "🌟 Music Player Web Application": "https://podcasts-ebon.vercel.app/",
-    "🌟 Interactive Coffee Sales Dashboard with Streamlit Pandas and Plotly": "https://sales-dashboards.streamlit.app/",
+    "🌟 Interactive Coffee Sales Dashboard with Streamlit Pandas and Plotly": "https://saledash.streamlit.app/",
     "🌟 Data Cleaning and Transformation for the Nashvill Real Estate Dataset": "https://github.com/chaabaniAbderahmane/Data-Cleaning-and-Transformation-for-the-Nashvill-Real-Estate-Dataset",
     "🌟 Sales Data Analysis and Reporting with SQLite, Pandas, and Plotly Creating a PDF report": "https://github.com/chaabaniAbderahmane/Sales-Data-Analysis-and-Reporting-with-SQLite-Pandas-and-Plotly-Creating-a-PDF-report-",
     "🌟 Data Cleaning and Preparation for London Bike Rental Analysis and Visualization": "https://github.com/chaabaniAbderahmane/-Data-Cleaning-and-Preparation-for-London-Bike-Rental-Analysis-and-Visualization?tab=readme-ov-file",
