@@ -37,7 +37,7 @@ PROJECTS = {
     "🌟 Urgent Care Analytics Dashboard": "https://public.tableau.com/app/profile/abderrahmane.chabani/viz/EmergencyRoomDashbord/Dashboard1?publish=yes",
     "🌟 Exploratory Data Analysis and Correlation Study of the Movie Industry": "https://github.com/chaabaniAbderahmane/Exploratory-Data-Analysis-and-Correlation-of-the-Movie-Industry",
     "🌟 Predictive Modeling for Credit Card Fraud Detection": "https://github.com/chaabaniAbderahmane/Predictive-Modeling-for-Credit-Card-Fraud-Detection",
-    "🌟 Music Player Web Application": "https://podcasts-ebon.vercel.app/",
+    "🌟 Music Player Web Application":"https://podcasts-ebon.vercel.app/",
     "🌟 Interactive Coffee Sales Dashboard with Streamlit Pandas and Plotly": "https://saledash.streamlit.app/",
     "🌟 Data Cleaning and Transformation for the Nashvill Real Estate Dataset": "https://github.com/chaabaniAbderahmane/Data-Cleaning-and-Transformation-for-the-Nashvill-Real-Estate-Dataset",
     "🌟 Sales Data Analysis and Reporting with SQLite, Pandas, and Plotly Creating a PDF report": "https://github.com/chaabaniAbderahmane/Sales-Data-Analysis-and-Reporting-with-SQLite-Pandas-and-Plotly-Creating-a-PDF-report-",
