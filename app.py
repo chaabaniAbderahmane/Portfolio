@@ -52,11 +52,9 @@ PROJECTS = {
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
-try:
-    with open(resume_file, "rb") as pdf_file:
+
+with open(resume_file, "rb") as pdf_file:
         PDFbyte = pdf_file.read()
-except Exception as e:
-    print("An error occurred:", e)
 
 
 # --- HERO SECTION ---
