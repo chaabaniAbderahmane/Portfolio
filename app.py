@@ -73,8 +73,8 @@ st.markdown(
         <span style="color: red; text-shadow: 2px 2px 4px #000000;">e</span>
         <span style="color: green; text-shadow: 2px 2px 4px #000000;"> </span>
         <span style="color: green; text-shadow: 2px 2px 4px #000000;">P</span>
-        <span style="color: white; background-color: black; text-shadow: 2px 2px 4px #000000;">a</span>
-        <span style="color: white; background-color: black; text-shadow: 2px 2px 4px #000000;">l</span>
+        <span style="color: white;  text-shadow: 2px 2px 4px #000000;">a</span>
+        <span style="color: white;  text-shadow: 2px 2px 4px #000000;">l</span>
         <span style="color: green; text-shadow: 2px 2px 4px #000000;">e</span>
         <span style="color: red; text-shadow: 2px 2px 4px #000000;">s</span>
         <span style="color: red; text-shadow: 2px 2px 4px #000000;">t</span>
