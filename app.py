@@ -65,14 +65,7 @@ if free_palestine_animation:
     st_lottie(free_palestine_animation, height=200, key="free_palestine_animation")  # Display the Lottie animation
 
 
-st.markdown(
-    """
-    <div style="text-align: center; margin-bottom: 20px;">
-        <a href="https://israel-massacres.com/" target="_blank" style="font-size: 1.5em; color: red; text-decoration: none; font-weight: bold;">Israel Massacres</a>
-    </div>
-    """,
-    unsafe_allow_html=True
-) 
+
 st.markdown(
     """
     <div style="text-align: center; font-size: 3em; font-family: 'Arial', sans-serif; font-weight: bold; line-height: 1.2;">
@@ -94,8 +87,29 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown(
+    """
 
+  
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(
+    """
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="https://israel-massacres.com/" target="_blank" style="font-size: 1.5em; color: red; text-decoration: none; font-weight: bold;">Israel Massacres</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
+st.markdown(
+    """
+
+  
+    """,
+    unsafe_allow_html=True
+)
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
