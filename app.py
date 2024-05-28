@@ -68,19 +68,19 @@ st.markdown(
     """
     <h1 style='text-align: center;'>
         <span style='color: red;'>F</span>
-        <span style='color: black;'>r</span>
-        <span style='color: black;'>e</span>
+        <span style='color: red;'>r</span>
         <span style='color: red;'>e</span>
-        <span style='color: green;'> </span>
+        <span style='color: red;'>e</span>
+        <span style='color: green;'>  </span>
         <span style='color: green;'>P</span>
-        <span style='color: white; background-color: black;'>a</span>
-        <span style='color: white; background-color: black;'>l</span>
-        <span style='color: green;'>e</span>
-        <span style='color: red;'>s</span>
-        <span style='color: red;'>t</span>
-        <span style='color: black;'>i</span>
-        <span style='color: black;'>n</span>
-        <span style='color: green;'>e</span>
+        <span style='color: green;'>a</span>
+        <span style='color: green;'>l</span>
+        <span style='color: black;'>e</span>
+        <span style='color: black;'>s</span>
+        <span style='color: black;'>t</span>
+        <span style='color: white;'>i</span>
+        <span style='color: white;'>n</span>
+        <span style='color: white;'>e</span>
     </h1>
     """,
     unsafe_allow_html=True
