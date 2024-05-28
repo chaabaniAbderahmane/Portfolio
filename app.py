@@ -8,7 +8,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "cv.pdf"
 # profile_pic = current_dir / "assets" / "montain.png"
-
+flag_file = current_dir / "assets" / "palestine_flag.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Portfolio"
@@ -24,13 +24,15 @@ def load_lottieurl(url):
         return None
     return r.json()
 lottie_data = load_lottieurl("https://lottie.host/3d2fa690-c7ec-440e-af07-67f30b49bd40/FQNXHOM7O2.json")
+# Load the Lottie animation for "Free Palestine"
+free_palestine_animation = load_lottieurl("https://lottie.host/fda36b03-39df-46ba-8ceb-1392e8571cec/kFNYupaxor.json")
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/abderahmane-chabani-964858201",
     "GitHub": "https://github.com/chaabaniAbderahmane?tab=repositories",
-    "Twitter": "https://twitter.com",
+    "Twitter": "https://x.com/chabani_abdou",
 }
 PROJECTS = {
     "🌟 News Veracity Assessment with Logistic Regression": " https://github.com/chaabaniAbderahmane/News-Veracity-Assessment-with-Logistic-Regression",
@@ -58,6 +60,12 @@ with open(resume_file, "rb") as pdf_file:
 
 
 # --- HERO SECTION ---
+# Free Palestine section
+if free_palestine_animation:
+    st_lottie(free_palestine_animation, height=200, key="free_palestine_animation")  # Display the Lottie animation
+
+st.markdown("<h1 style='text-align: center; color: red;'>Free Palestine</h1>", unsafe_allow_html=True)  # Display "Free Palestine"
+
 col1, col2 = st.columns(2, gap="small")
 with col1:
     if lottie_data:
