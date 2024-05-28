@@ -64,7 +64,28 @@ with open(resume_file, "rb") as pdf_file:
 if free_palestine_animation:
     st_lottie(free_palestine_animation, height=200, key="free_palestine_animation")  # Display the Lottie animation
 
-st.markdown("<h1 style='text-align: center; color: red;'>Free Palestine</h1>", unsafe_allow_html=True)  # Display "Free Palestine"
+st.markdown(
+    """
+    <h1 style='text-align: center;'>
+        <span style='color: red;'>F</span>
+        <span style='color: black;'>r</span>
+        <span style='color: black;'>e</span>
+        <span style='color: red;'>e</span>
+        <span style='color: green;'> </span>
+        <span style='color: green;'>P</span>
+        <span style='color: white; background-color: black;'>a</span>
+        <span style='color: white; background-color: black;'>l</span>
+        <span style='color: green;'>e</span>
+        <span style='color: red;'>s</span>
+        <span style='color: red;'>t</span>
+        <span style='color: black;'>i</span>
+        <span style='color: black;'>n</span>
+        <span style='color: green;'>e</span>
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
+
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
