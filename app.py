@@ -66,6 +66,7 @@ if free_palestine_animation:
 
 
 
+st.markdown("<div style='margin-bottom: 80px;'></div>", unsafe_allow_html=True)
 st.markdown(
     """
     <div style="text-align: center; font-size: 3em; font-family: 'Arial', sans-serif; font-weight: bold; line-height: 1.2;">
@@ -88,7 +89,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
+st.markdown("<div style='margin-bottom: 80px;'></div>", unsafe_allow_html=True)
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 20px;">
