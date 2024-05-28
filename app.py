@@ -94,14 +94,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown(
-    """
-    <div style="text-align: center; margin-bottom: 20px;">
-        <a href="https://israel-massacres.com/" target="_blank" style="font-size: 1.5em; color: red; text-decoration: none; font-weight: bold;">Israel Massacres</a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 st.markdown(
     """
@@ -110,7 +103,14 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+st.markdown(
+    """
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="https://israel-massacres.com/" target="_blank" style="font-size: 1.5em; color: red; text-decoration: none; font-weight: bold;">Israel Massacres</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     if lottie_data:
