@@ -66,25 +66,26 @@ if free_palestine_animation:
 
 st.markdown(
     """
-    <h1 style='text-align: center;'>
-        <span style='color: red;'>F</span>
-        <span style='color: red;'>r</span>
-        <span style='color: red;'>e</span>
-        <span style='color: red;'>e</span>
-        <span style='color: green;'>  </span>
-        <span style='color: green;'>P</span>
-        <span style='color: green;'>a</span>
-        <span style='color: green;'>l</span>
-        <span style='color: black;'>e</span>
-        <span style='color: black;'>s</span>
-        <span style='color: black;'>t</span>
-        <span style='color: white;'>i</span>
-        <span style='color: white;'>n</span>
-        <span style='color: white;'>e</span>
-    </h1>
+    <div style="text-align: center; font-size: 3em; font-family: 'Arial', sans-serif; font-weight: bold; line-height: 1.2;">
+        <span style="color: red; text-shadow: 2px 2px 4px #000000;">F</span>
+        <span style="color: black; text-shadow: 2px 2px 4px #FFFFFF;">r</span>
+        <span style="color: black; text-shadow: 2px 2px 4px #FFFFFF;">e</span>
+        <span style="color: red; text-shadow: 2px 2px 4px #000000;">e</span>
+        <span style="color: green; text-shadow: 2px 2px 4px #000000;"> </span>
+        <span style="color: green; text-shadow: 2px 2px 4px #000000;">P</span>
+        <span style="color: white; background-color: black; text-shadow: 2px 2px 4px #000000;">a</span>
+        <span style="color: white; background-color: black; text-shadow: 2px 2px 4px #000000;">l</span>
+        <span style="color: green; text-shadow: 2px 2px 4px #000000;">e</span>
+        <span style="color: red; text-shadow: 2px 2px 4px #000000;">s</span>
+        <span style="color: red; text-shadow: 2px 2px 4px #000000;">t</span>
+        <span style="color: black; text-shadow: 2px 2px 4px #FFFFFF;">i</span>
+        <span style="color: black; text-shadow: 2px 2px 4px #FFFFFF;">n</span>
+        <span style="color: green; text-shadow: 2px 2px 4px #000000;">e</span>
+    </div>
     """,
     unsafe_allow_html=True
 )
+
 
 
 col1, col2 = st.columns(2, gap="small")
