@@ -87,22 +87,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown(
-    """
-
-  
-    """,
-    unsafe_allow_html=True
-)
 
 
-st.markdown(
-    """
-
-  
-    """,
-    unsafe_allow_html=True
-)
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 20px;">
@@ -111,6 +97,11 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# Add a spacer div to create more space before the general settings section
+st.markdown("<div style='margin-bottom: 80px;'></div>", unsafe_allow_html=True)
+
+
 col1, col2 = st.columns(2, gap="small")
 with col1:
     if lottie_data:
